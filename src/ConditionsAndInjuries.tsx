@@ -9,7 +9,7 @@ export function ConditionsAndInjuries() {
 					{x.value && (
 						<div className="flex gap-1">
 							{Array.from({ length: x.value }).map((_, i) => (
-								<div key={i} className="h-4 w-4 rounded-sm border-2"></div>
+								<div key={i} className="size-3 rounded-full border-1"></div>
 							))}
 						</div>
 					)}
